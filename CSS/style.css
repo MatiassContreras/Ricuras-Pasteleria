@@ -22,7 +22,9 @@ grid-container_main div {
     margin: 20px;
 }
 
-.costum {}
+.costum {
+    margin: auto;
+}
 
 .popular {}
 
