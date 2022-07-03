@@ -18,4 +18,6 @@
     justify-content: flex-start;
 }
 
-.grid-container_head div {}
+.grid-container_head div {
+    background-color: rgb(117, 117, 238);
+}
