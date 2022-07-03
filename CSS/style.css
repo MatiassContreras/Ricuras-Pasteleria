@@ -5,4 +5,5 @@
     background-color: antiquewhite;
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 100%;
+    align-content: start;
 }
