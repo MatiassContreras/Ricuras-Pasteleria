@@ -6,4 +6,5 @@
     grid-template-columns: repeat(4,auto);
     grid-template-rows: 200px;
     align-content: center;
+    justify-content: center;
 }
