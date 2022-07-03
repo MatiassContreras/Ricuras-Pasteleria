@@ -1,3 +1,5 @@
 /* Header */
 
-.grid-container_head {}
+.grid-container_head {
+    display: grid;
+}
