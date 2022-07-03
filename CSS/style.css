@@ -17,4 +17,6 @@
     grid-template-rows: 450px;
 }
 
-grid-container_main div {}
+grid-container_main div {
+    background-color: rgb(212, 91, 161);
+}
