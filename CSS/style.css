@@ -3,5 +3,5 @@
     display: grid;
     
     background-color: rgb(184, 109, 11);
-
+    grid-template-columns: repeat(4,auto);
 }
