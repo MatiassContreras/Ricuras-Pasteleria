@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+}
+
+.parent {
+    height: auto;
+    background-color: aqua;
+}
