@@ -3,4 +3,5 @@
 .grid-container_head {
     display: grid;
     background-color: antiquewhite;
+    grid-template-columns: 25% 50% 25%;
 }
