@@ -15,4 +15,5 @@
     grid-template-columns: repeat(7, 14.28571428571429%);
     grid-template-rows: 50px;
     align-content: flex-start;
+    justify-content: flex-start;
 }
