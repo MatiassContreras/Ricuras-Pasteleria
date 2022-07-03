@@ -68,7 +68,7 @@
 
 /* Main*/
 
-grid-container_main div {
+.grid-container_main div {
     background-color: rgb(212, 91, 161);
     margin: 20px;
 }
