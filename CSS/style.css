@@ -13,4 +13,5 @@
 .grid-container_main {
     display: grid;
     background-color: pink;
+    grid-template-columns: repeat(2, auto);
 }
