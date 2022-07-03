@@ -38,4 +38,5 @@ grid-container_main div {
 .instagram {
     margin: auto;
     grid-column: 1 / 3;
+    height: 450px;
 }
