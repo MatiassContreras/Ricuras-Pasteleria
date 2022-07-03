@@ -27,4 +27,5 @@
 .grid-container_head_bot div {
     background-color: rgb(243, 107, 107);
     text-align: center;
+    padding: 15px;
 }
