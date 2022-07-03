@@ -12,4 +12,5 @@
 .grid-container_head_bot {
     display: grid;
     background-color: antiquewhite;
+    grid-template-columns: repeat(7, 14.28571428571429%);
 }
