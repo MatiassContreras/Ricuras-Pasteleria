@@ -15,7 +15,7 @@
     background-color: antiquewhite;
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 100%;
-    align-content: flex-start;
+    align-content: start;
     justify-content: flex-start;
 }
 
@@ -24,7 +24,7 @@
     background-color: antiquewhite;
     grid-template-columns: repeat(7, 14.28571428571429%);
     grid-template-rows: 50px;
-    align-content: flex-start;
+    align-content: start;
     justify-content: flex-start;
 }
 
