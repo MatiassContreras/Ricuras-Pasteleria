@@ -9,4 +9,6 @@
     justify-content: flex-start;
 }
 
-.grid-container_head_bot {}
+.grid-container_head_bot {
+    display: grid;
+}
