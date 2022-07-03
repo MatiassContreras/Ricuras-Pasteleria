@@ -35,4 +35,6 @@ grid-container_main div {
     height: 250px;
 }
 
-.instagram {}
+.instagram {
+    margin: auto;
+}
