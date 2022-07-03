@@ -1,0 +1,18 @@
+/* Footer */
+.grid-container_footer{
+    display: grid;
+    
+    background-color: rgb(184, 109, 11);
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: 200px;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Footer */
+.grid-container_footer div{
+    background-color: rgb(212, 160, 91);
+    text-align: center;
+    padding: 90px;
+    margin: 10px;
+}
