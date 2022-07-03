@@ -1,4 +1,7 @@
 /* Footer */
 .grid-container_footer{
     display: grid;
+    
+    background-color: rgb(184, 109, 11);
+
 }
