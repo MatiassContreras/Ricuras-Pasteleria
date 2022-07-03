@@ -14,7 +14,7 @@
     display: grid;
     background-color: antiquewhite;
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 100%;
+    grid-template-rows: 100px;
     align-content: start;
     justify-content: flex-start;
 }
@@ -54,7 +54,6 @@
 /* Header */
 
 .grid-container_head div {
-    background-color: rgb(117, 117, 238);
     text-align: center;
     padding: 33px;
 }
