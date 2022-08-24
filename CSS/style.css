@@ -6,8 +6,12 @@
 
 .container {
     max-width: 1170px;
-    background-color: ;
+    background-color: #FFE5D9;
     margin: auto;
+}
+
+ul {
+    list-style: none;
 }
 
 .footer {
