@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1170px;
+    background-color: ;
+    margin: auto;
+}
+
 .footer {
     background-color: #9D8189;
 }
