@@ -39,4 +39,6 @@ ul {
     color: #ffffff;
     text-transform: capitalize;
     margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
 }
