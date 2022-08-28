@@ -38,7 +38,7 @@ ul {
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     font-weight: 500;
     position: relative;
 }
@@ -66,4 +66,10 @@ ul {
     font-weight: 300;
     color: #bbbbbb;
     display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 10px;
 }
