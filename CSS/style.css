@@ -23,3 +23,8 @@ ul {
     background-color: #9D8189;
     padding: 70px 0;
 }
+
+footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
