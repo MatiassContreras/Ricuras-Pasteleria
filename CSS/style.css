@@ -40,5 +40,6 @@ a{
 }
 
 .head_top {
-    
+    /* indicar grid */
+    display: grid;
 }
