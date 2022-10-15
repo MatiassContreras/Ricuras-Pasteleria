@@ -133,4 +133,7 @@ a{
 .head_bot button {
     /* indicar grid */
     display: grid;
+
+    /* posicion */
+    position: relative;
 }
