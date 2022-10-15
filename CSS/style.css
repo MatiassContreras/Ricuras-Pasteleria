@@ -139,4 +139,7 @@ a{
 
     /* indicar ausencia de bordes */
     border: none;
+
+    /* color */
+    background-color: var(--background-top-bot);
 }
