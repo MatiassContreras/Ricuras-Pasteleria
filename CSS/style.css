@@ -90,4 +90,7 @@ a{
 
     /* radio de borde */
     border-radius: 50%;
+
+    /* ubicacion de los items*/
+    place-items: center;
 }
