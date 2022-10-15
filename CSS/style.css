@@ -142,4 +142,8 @@ a{
 
     /* color */
     background-color: var(--background-top-bot);
+
+
+    /* tamaño de fuente */
+    font-size: 13.8px;
 }
