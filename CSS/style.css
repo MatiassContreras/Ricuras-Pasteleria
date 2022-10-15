@@ -102,5 +102,6 @@ a{
 }
 
 .shopwheel img{
-    
+    /* altura y ancho total divido por -30- */
+    width: 36px;
 }
