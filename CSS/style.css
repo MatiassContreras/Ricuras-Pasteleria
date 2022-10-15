@@ -29,4 +29,7 @@ a{
 /* Header */
 
 /* Container */
-.head_container{}
+.head_container{
+     /* indicar grid */
+     display: grid;
+}
