@@ -146,4 +146,7 @@ a{
 
     /* tamaño de fuente */
     font-size: 13.8px;
+
+    /* ubicacion del contenido */
+    justify-content: center;
 }
