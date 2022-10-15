@@ -32,4 +32,6 @@ a{
 .head_container{
      /* indicar grid */
      display: grid;
+     /* color */
+    background-color: var(--background-top);
 }
