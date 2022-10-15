@@ -34,4 +34,6 @@ a{
      display: grid;
      /* color */
     background-color: var(--background-top);
+    /* tamaño de los lados */
+    padding-left: 6%;
 }
