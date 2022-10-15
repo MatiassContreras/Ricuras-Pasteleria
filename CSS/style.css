@@ -78,4 +78,7 @@ a{
 .social-links a {
     /* indicar grid */
     display: grid;
+
+    /* color de fondo */
+    background-color: rgba(255, 255, 255, 0.2);
 }
