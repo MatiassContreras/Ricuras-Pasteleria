@@ -162,4 +162,7 @@ a{
 .head_bot :hover{
     /* tamaño de aumento */
     font-size: 100%;
+
+    /* color de fuente */
+    color: var(--font);
 }
