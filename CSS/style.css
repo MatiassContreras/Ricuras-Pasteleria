@@ -53,5 +53,6 @@ a{
 }
 
 .head_top div :hover{
-    
+    /* tamaño de aumento */
+    scale: 1.05;
 }
