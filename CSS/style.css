@@ -46,4 +46,7 @@ a{
     /* declarar columnas y filas */
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 120px;
+
+    /* ubicacion de contenido*/
+    place-items: center;
 }
