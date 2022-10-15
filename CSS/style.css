@@ -87,4 +87,7 @@ a{
     /* altura y ancho ocupado */
     height: 30px;
     width: 30px;
+
+    /* radio de borde */
+    border-radius: 50%;
 }
