@@ -36,4 +36,5 @@ a{
     background-color: var(--background-top);
     /* tamaño de los lados */
     padding-left: 6%;
+    padding-right: 6%;
 }
