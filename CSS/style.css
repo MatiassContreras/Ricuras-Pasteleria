@@ -124,4 +124,7 @@ a{
     /* declarar columnas y filas  */
     grid-template-columns: repeat(5, 14.28%);
     grid-template-rows: 65.5px;
+
+    /* ubicacion de contenido*/
+    place-items: center;
 }
