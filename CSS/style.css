@@ -120,4 +120,7 @@ a{
 
     /* color */
     background-color: var(--background-top-bot);
+
+    /* declarar columnas y filas  */
+    grid-template-columns: repeat(5, 14.28%);
 }
