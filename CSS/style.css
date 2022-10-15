@@ -109,3 +109,7 @@ a{
     /* filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(90%) contrast(87%); */
     filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(0%) contrast(87%);
 }
+
+.head_bot {
+    
+}
