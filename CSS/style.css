@@ -61,5 +61,6 @@ a{
 }
 
 .social-links{
-    
+    /* indicar grid */
+    display: grid;
 }
