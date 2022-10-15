@@ -76,5 +76,6 @@ a{
 }
 
 .social-links a {
-    
+    /* indicar grid */
+    display: grid;
 }
