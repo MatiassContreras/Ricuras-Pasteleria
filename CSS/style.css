@@ -136,4 +136,7 @@ a{
 
     /* posicion */
     position: relative;
+
+    /* indicar ausencia de bordes */
+    border: none;
 }
