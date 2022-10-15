@@ -149,4 +149,5 @@ a{
 
     /* ubicacion del contenido */
     justify-content: center;
+    align-items: center;
 }
