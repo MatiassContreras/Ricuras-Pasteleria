@@ -154,4 +154,7 @@ a{
     /* altura ocupada */
     height:  100%;
     width: 100%;
+
+    /* delay de transicion */
+    transition: .7s ease all;
 }
