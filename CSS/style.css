@@ -117,4 +117,7 @@ a{
     /* declarar los bordes y color */
     border-top: 2px solid var(--border);
     border-bottom: 2px solid var(--border);
+
+    /* color */
+    background-color: var(--background-top-bot);
 }
