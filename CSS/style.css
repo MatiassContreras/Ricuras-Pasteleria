@@ -66,4 +66,7 @@ a{
     
     /* declarar columnas */
     grid-template-columns: 40% 0%  auto ;
+    
+    /* altura y ancho ocupado */
+    width: 100%;
 }
