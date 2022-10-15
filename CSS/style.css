@@ -131,5 +131,6 @@ a{
 }
 
 .head_bot button {
-    
+    /* indicar grid */
+    display: grid;
 }
