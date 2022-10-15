@@ -96,5 +96,6 @@ a{
 }
 
 .logo img{
-    
+    /* altura y ancho total divido por 4*/
+    width: 259.5px;
 }
