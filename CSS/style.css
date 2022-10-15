@@ -55,4 +55,7 @@ a{
 .head_top div :hover{
     /* tamaño de aumento */
     scale: 1.05;
+    
+    /* delay de la transicion */
+    transition: .7s ease all;
 }
