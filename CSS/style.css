@@ -273,4 +273,6 @@ a {
     height: 1000px;
 }
 
-.layout {}
+.layout {
+    background-color: pink;
+}
