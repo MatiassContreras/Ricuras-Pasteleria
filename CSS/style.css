@@ -23,7 +23,6 @@ body {
     grid-template-columns: auto 350px auto 200px auto;
     background-color: #745d79;
     margin-top: 0%;
-    border: 2px pink solid;
 }
 
 ul {
