@@ -46,3 +46,7 @@ body {
     grid-template-columns: auto 350px auto 320px auto;
     background-color: #b393ab;
 }
+
+ul {
+    list-style: none;
+}
