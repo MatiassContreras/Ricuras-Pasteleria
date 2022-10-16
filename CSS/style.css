@@ -85,3 +85,8 @@ ul {
     display: block;
     transition: all 0.3s ease;
 }
+
+.grid-container_footer ul li a:hover {
+    color: #ffffff;
+    padding-left: 10px;
+}
