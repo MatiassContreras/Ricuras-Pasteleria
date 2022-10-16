@@ -15,12 +15,12 @@ body {
 }
 
 .grid-container_footer {
-    padding: 20px;
+    padding-top: 20px;
     position: relative;
     width: 100%;
     height: 200px;
     display: grid;
-    grid-template-columns: auto 350px auto 320px auto;
+    grid-template-columns: auto 350px auto 200px auto;
     background-color: #745d79;
     margin-top: 0%;
     border: 2px pink solid;
