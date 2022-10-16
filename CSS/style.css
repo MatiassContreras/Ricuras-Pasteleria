@@ -18,7 +18,7 @@ body {
     padding: 20px;
     position: relative;
     width: 100%;
-    height: 250px;
+    height: 200px;
     display: grid;
     grid-template-columns: auto 350px auto 320px auto;
     background-color: #745d79;
