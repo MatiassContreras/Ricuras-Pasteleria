@@ -59,3 +59,14 @@ ul {
     font-weight: 500;
     position: relative;
 }
+
+.grid-container_footer h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #FFE5D9;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
