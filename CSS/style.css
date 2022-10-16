@@ -132,3 +132,7 @@ ul {
     display: grid;
     place-content: center;
 }
+
+ul {
+    padding: 0;
+}
