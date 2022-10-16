@@ -95,3 +95,8 @@ ul {
     width: 245px;
     height: 105px;
 }
+
+.Logo_Empresa {
+    display: grid;
+    place-content: center;
+}
