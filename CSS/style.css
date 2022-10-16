@@ -275,4 +275,5 @@ a {
 
 .layout {
     background-color: pink;
+    border: 2px solid black;
 }
