@@ -15,7 +15,7 @@ body {
 }
 
 .grid-container_footer {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 250px;
     display: grid;
@@ -268,7 +268,7 @@ a {
 .Main-container {
     position: relative;
     padding-top: 1000px;
-    display: grid;
+    display: flex;
     width: 100%;
     height: 100%;
     background-color: #f9dbbd;
