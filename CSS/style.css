@@ -6,10 +6,6 @@
     padding: 0;
 }
 
-.parent {
-    background-color: #f9dbbd;
-}
-
 
 /* Footer */
 
@@ -19,13 +15,13 @@ body {
 }
 
 .grid-container_footer {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 250px;
     display: grid;
     grid-template-columns: auto 350px auto 320px auto;
     background-color: #745d79;
-    margin-top: 100%;
+    margin-top: 0%;
 }
 
 ul {
@@ -271,7 +267,8 @@ a {
 
 .Main-container {
     position: relative;
-    background-color: #f9dbbd;
-    display: grid;
-    grid-template-columns: auto 350px auto 320px auto;
+    padding-top: 1000px;
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
 }
