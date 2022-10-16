@@ -20,12 +20,6 @@
     justify-content: flex-start;
 }
 
-.grid-container_head div {
-    background-color: rgb(117, 117, 238);
-    text-align: center;
-    padding: 33px;
-}
-
 .grid-container_head_bot div {
     background-color: rgb(243, 107, 107);
     text-align: center;
