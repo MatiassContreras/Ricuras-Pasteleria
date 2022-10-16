@@ -119,7 +119,7 @@ ul {
 }
 
 
-/* ----------------------------------------------------------- Inicio Footer ---------------------------------------------------- */
+/* ----------------------------------------------------------- Inicio Header ---------------------------------------------------- */
 
 @font-face {
     src: url("NexaRustSans-Black.otf");
@@ -264,4 +264,14 @@ a {
     color: var(--font);
     /* color */
     background-color: var(--border);
+}
+
+
+/* ----------------------------------------------------------- Inicio Main ---------------------------------------------------- */
+
+.Main-container {
+    position: relative;
+    background-color: #f9dbbd;
+    display: grid;
+    grid-template-columns: auto 350px auto 320px auto;
 }
