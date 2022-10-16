@@ -127,3 +127,8 @@ ul {
     width: 128.33333333333333333333333333333px;
     height: 147px;
 }
+
+.Logo_TACC {
+    display: grid;
+    place-content: center;
+}
