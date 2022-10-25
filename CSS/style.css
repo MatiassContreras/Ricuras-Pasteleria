@@ -293,4 +293,6 @@ a {
     height: 300px;
 }
 
-.sobre-mi {}
+.sobre-mi {
+    background-color: pink;
+}
