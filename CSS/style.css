@@ -283,4 +283,6 @@ a {
     height: 400px;
 }
 
-.prod-populares {}
+.prod-populares {
+    background-color: pink;
+}
