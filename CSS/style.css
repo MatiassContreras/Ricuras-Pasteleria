@@ -275,9 +275,10 @@ a {
 }
 
 .layout {
+    position: absolute;
     background-color: pink;
     border: 2px solid black;
     margin: 30px;
-    width: 100%;
+    width: 96.6%;
     height: 400px;
 }
