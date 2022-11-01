@@ -7,4 +7,5 @@ body{
 }
 .main-container{
     display: grid;
+    height: auto;
 }
