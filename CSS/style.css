@@ -133,7 +133,7 @@ ul {
 a {
     display: grid;
     position: relative;
-    color: black;
+    color: white;
     height: 100%;
     width: 100%;
     text-decoration: none;
@@ -191,7 +191,7 @@ a {
     /* color de fondo */
     background-color: rgba(255, 255, 255, 0.2);
     /* color */
-    color: black;
+    color: white;
     /* altura y ancho ocupado */
     height: 30px;
     width: 30px;
