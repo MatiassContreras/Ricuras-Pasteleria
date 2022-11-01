@@ -41,4 +41,5 @@ a{
 .headd_{
     display: grid;
     place-content: center;
+    place-items: center;
 }
