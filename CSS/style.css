@@ -277,7 +277,7 @@ a {
 
 .layout {
     position: absolute;
-    background-color: pink;
+    background-color: #F877E3;
     border: 2px solid #a53861;
     margin: 30px;
     width: 96.6%;
@@ -285,7 +285,7 @@ a {
 }
 
 .prod-populares {
-    background-color: white;
+    background-color: #F877E3;
     border: 2px solid #a53861;
     margin: 30px;
     margin-left: 30px;
@@ -295,7 +295,7 @@ a {
 }
 
 .sobre-mi {
-    background-color: white;
+    background-color: #F877E3;
     border: 2px solid #a53861;
     margin-right: 30px;
     margin-top: 468px;
