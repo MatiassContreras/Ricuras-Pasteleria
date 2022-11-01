@@ -34,4 +34,5 @@ a{
 .head_container{
     display: grid;
     background-color: var(--background-container);
+    grid-template-rows: 100px;
 }
