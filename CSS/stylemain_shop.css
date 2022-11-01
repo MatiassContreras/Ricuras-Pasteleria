@@ -8,4 +8,5 @@ body{
 .main-container{
     display: grid;
     height: auto;
+    grid-template-columns: 20% auto 20%;
 }
