@@ -232,6 +232,7 @@ a {
 }
 
 .head_bot button {
+    color: white;
     /* indicar grid */
     display: grid;
     /* posicion */
