@@ -37,6 +37,7 @@ a{
     grid-template-rows: 100px;
     grid-template-columns: 20% auto 10%;
     padding-right: 1%;
+    transition: .7s ease all;
 }
 .headd_{
     display: grid;
