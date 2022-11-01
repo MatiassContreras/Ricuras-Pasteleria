@@ -33,4 +33,5 @@ a{
 }
 .head_container{
     display: grid;
+    background-color: var(--background-container);
 }
