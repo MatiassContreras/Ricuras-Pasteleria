@@ -278,7 +278,7 @@ a {
 .layout {
     position: absolute;
     background-color: pink;
-    border: 2px solid white;
+    border: 2px solid var(--border);
     margin: 30px;
     width: 96.6%;
     height: 400px;
@@ -286,7 +286,7 @@ a {
 
 .prod-populares {
     background-color: pink;
-    border: 2px solid white;
+    border: 2px solid var(--border);
     margin: 30px;
     margin-left: 30px;
     margin-top: 468px;
@@ -296,7 +296,7 @@ a {
 
 .sobre-mi {
     background-color: pink;
-    border: 2px solid white;
+    border: 2px solid var(--border);
     margin-right: 30px;
     margin-top: 468px;
     width: 48.3%;
