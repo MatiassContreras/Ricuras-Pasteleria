@@ -6,5 +6,5 @@ body{
     background-attachment: fixed;
 }
 .main-container{
-    
+    display: grid;
 }
