@@ -299,9 +299,9 @@ a {
     position: relative;
     background-color: #F585C4;
     border: 2px solid #a53861;
-    margin: 30px;
+    margin: 0;
     margin-top: 990px;
-    width: 48.3%;
+    width: 100%;
     height: 300px;
 }
 
