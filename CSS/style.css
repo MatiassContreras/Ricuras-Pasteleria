@@ -298,7 +298,8 @@ a {
 .sobre-mi {
     position: relative;
     background-color: #F585C4;
-    border: 2px solid #a53861;
+    border-top: 2px solid #a53861;
+    border-bottom: 2px solid #a53861;
     margin: 0;
     margin-top: 1000px;
     width: 100%;
