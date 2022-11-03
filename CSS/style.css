@@ -338,4 +338,6 @@ a {
     background-image: url(../Imagenes/Fondo-vector.png);
 }
 
-.prod-populares div {}
+.prod-populares div {
+    display: flex;
+}
