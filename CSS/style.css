@@ -323,4 +323,7 @@ a {
     padding-right: 10px;
     width: 180px;
     height: 230px;
+    border: 2px solid #a53861;
+    float: left;
+    background-color: white;
 }
