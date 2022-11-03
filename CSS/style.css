@@ -309,6 +309,7 @@ a {
 #h1-sobremi {
     color: #4F5154;
     text-align: center;
+    margin: auto;
 }
 
 #h1-populares {
@@ -325,7 +326,7 @@ a {
     margin-top: 20px;
     margin-left: 55px;
     padding-right: 10px;
-    width: 300px;
+    width: 45%;
     height: 400px;
     border: 2px solid #a53861;
     float: left;
