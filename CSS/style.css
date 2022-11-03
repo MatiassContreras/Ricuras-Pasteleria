@@ -285,6 +285,7 @@ a {
 }
 
 .prod-populares {
+    position: absolute;
     background-color: #F585C4;
     border: 2px solid #a53861;
     margin: 30px;
