@@ -276,6 +276,7 @@ a {
 }
 
 .layout {
+    display: flex;
     position: absolute;
     background-color: #F585C4;
     border: 2px solid #a53861;
@@ -285,6 +286,7 @@ a {
 }
 
 .prod-populares {
+    display: flex;
     background-color: #F585C4;
     border: 2px solid #a53861;
     margin: 30px;
@@ -295,6 +297,7 @@ a {
 }
 
 .sobre-mi {
+    display: flex;
     background-color: #F585C4;
     border: 2px solid #a53861;
     margin-right: 30px;
