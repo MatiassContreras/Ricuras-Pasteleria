@@ -340,4 +340,5 @@ a {
 
 .prod-populares div {
     display: flex;
+    margin-top: 20px;
 }
