@@ -321,10 +321,11 @@ a {
 .sobre-mi div {
     position: relative;
     display: flex;
-    margin-left: 22px;
+    margin-top: 20px;
+    margin-left: 50px;
     padding-right: 10px;
     width: 180px;
-    height: 230px;
+    height: 400px;
     border: 2px solid #a53861;
     float: left;
     background-color: white;
