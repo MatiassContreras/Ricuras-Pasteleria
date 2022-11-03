@@ -277,7 +277,7 @@ a {
 
 .layout {
     display: flex;
-    position: absolute;
+    position: relative;
     background-color: #F585C4;
     border: 2px solid #a53861;
     margin: 30px;
@@ -304,6 +304,7 @@ a {
     margin-top: 468px;
     width: 48.3%;
     height: 300px;
+    float: inline-start;
 }
 
 #h1-sobremi {
