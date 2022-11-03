@@ -125,7 +125,7 @@ ul {
 
 :root {
     --border: white;
-    --background-top: #ffa5ac;
+    --background-top: #4E4E4F;
     --background-top-bot: #a53861;
     --background: #f9dbbd;
 }
@@ -270,7 +270,7 @@ a {
 .Main-container {
     position: relative;
     display: flex;
-    background-color: #f9dbbd;
+    background-color: white;
     width: 100%;
     height: 100%;
     padding-bottom: 30px;
@@ -278,7 +278,7 @@ a {
 
 .layout {
     position: absolute;
-    background-color: #F585C4;
+    background-color: #4E4E4F;
     border: 2px solid #a53861;
     margin: 30px;
     width: 96.6%;
@@ -287,7 +287,7 @@ a {
 
 .prod-populares {
     position: absolute;
-    background-color: #F585C4;
+    background-color: #4E4E4F;
     border: 2px solid #a53861;
     margin: 30px;
     margin-left: 30px;
@@ -298,7 +298,7 @@ a {
 
 .sobre-mi {
     position: relative;
-    background-color: #F585C4;
+    background-color: #4E4E4F;
     border-top: 2px solid #a53861;
     border-bottom: 2px solid #a53861;
     /* Esta propiedad (margin-top) es la encargada de manejar el tamaño del main, mientras mayor sea, mas tamaño*/
