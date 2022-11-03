@@ -153,6 +153,7 @@ a {
     /* tamaño de los lados */
     padding-left: 6%;
     padding-right: 6%;
+    border-bottom: 2px solid #a53861;
 }
 
 .head_top {
@@ -220,7 +221,6 @@ a {
     display: grid;
     /* declarar los bordes y color */
     border-top: 2px solid var(--border);
-    border-bottom: 2px solid var(--border);
     /* color */
     background-color: var(--background-top-bot);
     /* declarar columnas y filas  */
