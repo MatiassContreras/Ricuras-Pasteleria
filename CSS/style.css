@@ -276,8 +276,7 @@ a {
 }
 
 .layout {
-    display: flex;
-    position: relative;
+    position: absolute;
     background-color: #F585C4;
     border: 2px solid #a53861;
     margin: 30px;
@@ -286,7 +285,6 @@ a {
 }
 
 .prod-populares {
-    display: flex;
     background-color: #F585C4;
     border: 2px solid #a53861;
     margin: 30px;
@@ -297,14 +295,12 @@ a {
 }
 
 .sobre-mi {
-    display: flex;
     background-color: #F585C4;
     border: 2px solid #a53861;
     margin-right: 30px;
     margin-top: 468px;
     width: 48.3%;
     height: 300px;
-    float: inline-start;
 }
 
 #h1-sobremi {
