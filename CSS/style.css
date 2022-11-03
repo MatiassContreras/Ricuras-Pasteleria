@@ -338,7 +338,7 @@ a {
     background-image: url(../Imagenes/Fondo-vector.png);
 }
 
-.prod-populares div {
+.prod-populares a {
     display: flex;
     margin-top: 20px;
     margin-left: 28px;
