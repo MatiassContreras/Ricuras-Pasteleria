@@ -125,7 +125,7 @@ ul {
 
 :root {
     --border: white;
-    --background-top: #4E4E4F;
+    --background-top: #529f90;
     --background-top-bot: #a53861;
     --background: #f9dbbd;
 }
@@ -153,7 +153,7 @@ a {
     /* tamaño de los lados */
     padding-left: 6%;
     padding-right: 6%;
-    border-bottom: 2px solid #a53861;
+    border-bottom: 2px solid #529f90;
 }
 
 .head_top {
@@ -289,7 +289,7 @@ a {
 
 .prod-populares {
     position: absolute;
-    background-color: #4E4E4F;
+    background-color: #529f90;
     border: 2px solid #a53861;
     margin: 30px;
     margin-left: 30px;
@@ -300,7 +300,7 @@ a {
 
 .sobre-mi {
     position: relative;
-    background-color: #4E4E4F;
+    background-color: #529f90;
     border-top: 2px solid #a53861;
     border-bottom: 2px solid #a53861;
     /* Esta propiedad (margin-top) es la encargada de manejar el tamaño del main, mientras mayor sea, mas tamaño*/
