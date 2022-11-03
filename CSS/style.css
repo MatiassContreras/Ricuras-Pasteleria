@@ -278,7 +278,7 @@ a {
 
 .layout {
     position: absolute;
-    background-color: #4E4E4F;
+    background-image: url(../Imagenes/Layout.png);
     border: 2px solid #a53861;
     margin: 30px;
     width: 96.6%;
