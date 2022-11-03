@@ -301,6 +301,7 @@ a {
     background-color: #F585C4;
     border-top: 2px solid #a53861;
     border-bottom: 2px solid #a53861;
+    /* Esta propiedad (margin-top) es la encargada de manejar el tamaño del main, mientras mayor sea, mas tamaño*/
     margin-top: 1500px;
     width: 100%;
     height: 400px;
