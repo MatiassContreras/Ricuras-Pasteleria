@@ -347,4 +347,5 @@ a {
     border: 2px solid #a53861;
     height: 200px;
     background-color: white;
+    float: left;
 }
