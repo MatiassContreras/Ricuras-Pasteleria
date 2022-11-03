@@ -320,4 +320,5 @@ a {
     position: relative;
     display: flex;
     margin-left: 22px;
+    padding-right: 10px;
 }
