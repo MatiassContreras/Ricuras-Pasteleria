@@ -318,4 +318,5 @@ a {
 
 .sobre-mi div {
     position: relative;
+    display: flex;
 }
