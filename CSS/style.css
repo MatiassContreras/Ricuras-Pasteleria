@@ -350,6 +350,8 @@ a {
     border-radius: 4%;
 }
 
+.prod-populares a div img {}
+
 .h1-prod-popular {
     color: black;
     margin-top: 0%;
