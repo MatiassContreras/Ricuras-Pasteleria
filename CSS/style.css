@@ -347,6 +347,7 @@ a {
     height: 200px;
     background-color: white;
     float: left;
+    border-radius: 4%;
 }
 
 .h1-prod-popular {
