@@ -349,4 +349,6 @@ a {
     float: left;
 }
 
-.h1-prod-popular {}
+.h1-prod-popular {
+    color: black;
+}
