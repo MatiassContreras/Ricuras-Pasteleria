@@ -73,4 +73,6 @@ a{
     align-items: center;
     transition: .7s ease all;
 }
-.head_button :hover{}
+.head_button :hover{
+    font-size: 100%;
+}
