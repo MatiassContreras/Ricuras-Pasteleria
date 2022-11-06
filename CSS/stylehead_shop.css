@@ -55,4 +55,5 @@ a{
     grid-template-columns: repeat(5, 20%);
     margin-top: 5%;
     padding-left: 5%;
+    padding-right: 5%;
 }
