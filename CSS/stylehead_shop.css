@@ -45,5 +45,5 @@ a{
     transition: .7s ease all;
 }
 .headd_.wheel{
-    
+    display: grid;
 }
