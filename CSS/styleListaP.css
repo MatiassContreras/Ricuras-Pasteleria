@@ -33,3 +33,9 @@
     position: relative;
     border-radius: 15px;
 }
+
+.estilo-c .img-container img {
+    width: 100%;
+    position: center;
+    transition: all 0.5s;
+}
