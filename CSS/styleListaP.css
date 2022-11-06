@@ -62,3 +62,7 @@
     text-align: center;
     justify-content: center;
 }
+
+.estilo-c .info-container h3 {
+    margin: 0;
+}
