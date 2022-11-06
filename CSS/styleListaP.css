@@ -43,3 +43,15 @@
 .estilo-c:hover .img-container img {
     transform: scale(1.07);
 }
+
+.estilo-c .img-container .promo {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 20px;
+    background: white;
+    padding: 15px;
+    color: black;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
