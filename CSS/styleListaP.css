@@ -66,3 +66,9 @@
 .estilo-c .info-container h3 {
     margin: 0;
 }
+
+.estilo-c .info-container h3,
+.estilo-c .info-container strong {
+    padding: 5px 15px;
+    width: 100%;
+}
