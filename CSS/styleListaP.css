@@ -14,3 +14,7 @@
     flex-wrap: wrap;
     padding: 50px 0;
 }
+
+.card {
+    width: 33%;
+}
