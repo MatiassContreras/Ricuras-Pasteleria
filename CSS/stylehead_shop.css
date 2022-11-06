@@ -53,4 +53,5 @@ a{
 .head_button{
     display: grid;
     grid-template-columns: repeat(5, 20%);
+    margin-top: 5%;
 }
