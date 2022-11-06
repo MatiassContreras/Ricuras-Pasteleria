@@ -66,4 +66,5 @@ a{
     border: none;
     background-color: var(--background-button);
     font-family: cuerpo;
+    font-size: 13.8px;
 }
