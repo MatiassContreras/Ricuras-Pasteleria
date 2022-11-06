@@ -51,5 +51,5 @@ a{
     transition: .7s ease all;
 }
 .head_button{
-    
+    display: grid;
 }
