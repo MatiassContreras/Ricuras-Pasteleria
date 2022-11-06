@@ -50,7 +50,7 @@ a{
     place-items: center;
     transition: .7s ease all;
 }
-.headd_.logo :hover{} 
+.headd_ :hover{} 
 .head_button{
     display: grid;
     grid-template-columns: repeat(5, 20%);
