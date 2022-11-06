@@ -65,4 +65,5 @@ a{
     position: relative;
     border: none;
     background-color: var(--background-button);
+    font-family: cuerpo;
 }
