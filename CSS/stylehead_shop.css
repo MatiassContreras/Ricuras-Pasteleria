@@ -76,4 +76,5 @@ a{
 .head_button :hover{
     font-size: 100%;
     color: var(--background-container);
+    background-color: var(--border);
 }
