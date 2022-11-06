@@ -60,4 +60,6 @@ a{
     border-top: 2px solid var(--border);
     border-bottom: 2px solid var(--border);
 }
-.head_button button{}
+.head_button button{
+    display: grid;
+}
