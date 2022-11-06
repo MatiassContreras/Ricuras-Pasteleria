@@ -26,3 +26,10 @@
     font-family: 'Poppins', sans-serif;
     width: 30%;
 }
+
+.estilo-c .img-container {
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    border-radius: 15px;
+}
