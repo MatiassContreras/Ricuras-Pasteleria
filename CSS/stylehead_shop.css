@@ -48,4 +48,5 @@ a{
     display: grid;
     place-content: center;
     place-items: center;
+    transition: .7s ease all;
 }
