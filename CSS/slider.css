@@ -28,4 +28,6 @@
         height: 100%;
     }
     
-    .contenido-slider>div {}
+    .contenido-slider>div {
+        width: 40%;
+    }
