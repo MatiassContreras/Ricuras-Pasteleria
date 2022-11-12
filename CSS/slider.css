@@ -9,4 +9,6 @@
     overflow: hidden;
 }
 
-.slider-contenedor {}
+.slider-contenedor {
+    width: 100%;
+}
