@@ -125,16 +125,16 @@ ul {
 }
 
 :root {
-    --border: white;
-    --background-top: #529f90;
-    --background-top-bot: #a53861;
+    --border: #745d79;
+    --background-top: #e7c2ca;
+    --background-top-bot: #b393ab;
     --background: #f9dbbd;
 }
 
 a {
     display: grid;
     position: relative;
-    color: white;
+    color: black;
     height: 100%;
     width: 100%;
     text-decoration: none;
@@ -221,6 +221,7 @@ a {
     display: grid;
     /* declarar los bordes y color */
     border-top: 2px solid var(--border);
+    border-bottom: 2px solid var(--border);
     /* color */
     background-color: var(--background-top-bot);
     /* declarar columnas y filas  */
@@ -232,7 +233,7 @@ a {
 }
 
 .head_bot button {
-    color: white;
+    color: black;
     /* indicar grid */
     display: grid;
     /* posicion */
@@ -259,7 +260,7 @@ a {
     /* tamaño de aumento */
     font-size: 100%;
     /* color de fuente */
-    color: var(--font);
+    color: white;
     /* color */
     background-color: var(--border);
 }
