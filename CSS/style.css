@@ -360,6 +360,10 @@ a {
     border-top-right-radius: 4%;
 }
 
+.prod-populares a div {
+    width: 100%;
+}
+
 .h1-prod-popular {
     color: black;
     margin-top: 0%;
