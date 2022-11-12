@@ -351,7 +351,9 @@ a {
     transition: 0.4s ease all;
 }
 
-.prod-populares a:hover {}
+.prod-populares a:hover {
+    scale: 1.1;
+}
 
 .prod-populares a div img {
     border-top-left-radius: 4%;
