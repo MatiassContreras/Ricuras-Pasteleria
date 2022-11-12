@@ -339,7 +339,7 @@ a {
     height: 300px;
     border: 2px solid var(--border);
     float: left;
-    background-image: url(../Imagenes/Fondo-vector.png);
+    background-color: var(--border);
 }
 
 .prod-populares a {
