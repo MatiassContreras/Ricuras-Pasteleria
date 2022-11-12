@@ -356,6 +356,8 @@ a {
 }
 
 .prod-populares a div img {
+    width: 100%;
+    height: 70%;
     border-top-left-radius: 4%;
     border-top-right-radius: 4%;
 }
