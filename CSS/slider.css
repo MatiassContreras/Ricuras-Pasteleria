@@ -23,6 +23,10 @@
         flex-shrink: 0;
     }
     
+    .contenido-slider:nth-child(2) {
+        width: 101.8%;
+    }
+    
     .contenido-slider img {
         width: 100%;
         height: 100%;
