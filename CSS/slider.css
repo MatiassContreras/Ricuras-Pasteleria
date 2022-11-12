@@ -4,4 +4,6 @@
     box-sizing: border-box;
 }
 
-.contenedor {}
+.contenedor {
+    width: 100%;
+}
