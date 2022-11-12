@@ -279,10 +279,6 @@ a {
 
 .layout {
     position: absolute;
-    background-image: url(../Imagenes/Layout.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
     border: 2px solid var(--border);
     margin: 30px;
     width: 96.6%;
