@@ -348,6 +348,7 @@ a {
     background-color: white;
     float: left;
     border-radius: 4%;
+    transition: 0.4s ease all;
 }
 
 .prod-populares a div img {
