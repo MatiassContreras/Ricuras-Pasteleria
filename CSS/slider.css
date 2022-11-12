@@ -1,15 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.contenedor {
-    width: 100%;
-    overflow: hidden;
-}
-
-.slider-contenedor {
-    width: 100%;
-    display: flex;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .contenedor {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .slider-contenedor {
+        width: 100%;
+        display: flex;
+    }
+    
+    .contenido-slider {}
