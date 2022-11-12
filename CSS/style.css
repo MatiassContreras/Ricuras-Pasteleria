@@ -324,6 +324,7 @@ a {
 #h1-populares {
     color: white;
     text-align: center;
+    font-family: cuerpo;
 }
 
 .sobre-mi div {
