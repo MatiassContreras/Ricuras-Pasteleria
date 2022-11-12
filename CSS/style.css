@@ -283,7 +283,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
-    border: 2px solid #a53861;
+    border: 2px solid var(--border);
     margin: 30px;
     width: 96.6%;
     height: 30%;
@@ -291,8 +291,8 @@ a {
 
 .prod-populares {
     position: absolute;
-    background-color: #529f90;
-    border: 2px solid #a53861;
+    background-color: var(--background-top-bot);
+    border: 2px solid var(--border);
     margin: 30px;
     margin-left: 30px;
     margin-top: 660px;
@@ -302,9 +302,9 @@ a {
 
 .sobre-mi {
     position: relative;
-    background-color: #529f90;
-    border-top: 2px solid #a53861;
-    border-bottom: 2px solid #a53861;
+    background-color: var(--background-top-bot);
+    border-top: 2px solid var(--border);
+    border-bottom: 2px solid var(--border);
     /* Esta propiedad (margin-top) es la encargada de manejar el tamaño del main, mientras mayor sea, mas tamaño*/
     margin-top: 1500px;
     width: 100%;
@@ -312,7 +312,7 @@ a {
 }
 
 #h1-sobremi {
-    color: white;
+    color: black;
     text-align: center;
     margin: auto;
 }
@@ -323,7 +323,7 @@ a {
 }
 
 #h1-populares {
-    color: white;
+    color: black;
     text-align: center;
     font-family: cuerpo;
 }
@@ -337,7 +337,7 @@ a {
     padding-right: 10px;
     width: 44%;
     height: 300px;
-    border: 2px solid #a53861;
+    border: 2px solid var(--border);
     float: left;
     background-image: url(../Imagenes/Fondo-vector.png);
 }
@@ -348,7 +348,7 @@ a {
     margin-left: 1%;
     width: 10%;
     height: 200px;
-    background-color: white;
+    background-color: var(--border);
     float: left;
     border-radius: 4%;
     transition: 0.4s ease all;
@@ -370,7 +370,7 @@ a {
 }
 
 .h1-prod-popular {
-    color: black;
+    color: white;
     margin-top: 0%;
     font-weight: normal;
     font-size: 14px;
