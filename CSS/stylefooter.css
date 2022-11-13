@@ -34,3 +34,7 @@ body {
     box-sizing: border-box;
     width: 50px;
 }
+
+.grid-container_footer ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
