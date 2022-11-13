@@ -7,3 +7,7 @@ let intervalo = 5000;
 window.addEventListener("resize", function() {
     width = sliderIndividual[0].clientWidth;
 })
+
+setInterval(function() {
+    slides();
+}, intervalo);
