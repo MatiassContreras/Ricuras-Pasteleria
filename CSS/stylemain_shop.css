@@ -1,0 +1,20 @@
+body{
+    background-image: url(../imagenes/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.main-container{
+    display: grid;
+    height: auto;
+    grid-template-columns: 20% auto 20%;
+}
+.menu{
+    background-color: white;
+    height: 1000px;
+}
+.product{
+    background-color: aqua;
+    height: 1000px;
+}
