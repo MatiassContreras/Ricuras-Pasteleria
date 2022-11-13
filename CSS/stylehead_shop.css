@@ -36,8 +36,7 @@
 }
 .headd_.wheel img{
     /* definir alto y ancho */
-    width: 36px;
-    height: 30.2px;
+    transform: scale(3.3%);
     /* filtro para cambiar el color a negro */
     filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(0%) contrast(87%);
 }
