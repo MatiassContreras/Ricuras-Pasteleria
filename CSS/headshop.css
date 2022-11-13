@@ -43,4 +43,9 @@ a {
     padding-right: 1%;
 }
 
-.headd_ {}
+.headd_ {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    transition: .7s ease all;
+}
