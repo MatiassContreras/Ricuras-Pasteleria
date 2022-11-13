@@ -16,7 +16,7 @@
     margin: 0;
     padding: 0;
 }
-a{
+.head_container a{
     /* definir grid */
     display: grid;
     /* definir posicion relativa */
