@@ -62,4 +62,13 @@ a {
     transition: .7s ease all;
 }
 
-.head_button {}
+.head_button {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: var(--background-button);
+    border-top: 2px solid var(--border);
+    border-bottom: 2px solid var(--border);
+}
