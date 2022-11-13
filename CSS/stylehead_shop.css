@@ -32,8 +32,7 @@
 
 .headd_.logo img{
     /* definir alto y ancho */
-    width: 207.6px;
-    height: 84px;
+    transform: scale(20%);
 }
 .headd_.wheel img{
     /* definir alto y ancho */
