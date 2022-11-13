@@ -9,7 +9,7 @@ body{
 .Productos {
     display: grid;
     height: auto;
-    grid-template-columns: 20% auto 20%;
+    grid-template-columns: 19.91% auto 20%;
 }
 .Lista-Productos{
     background-color: #d2b3c3;
