@@ -9,3 +9,8 @@
     --background-button: #b393ab;
     --background: #e7c2ca;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
