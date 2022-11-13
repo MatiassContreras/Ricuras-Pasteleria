@@ -10,4 +10,6 @@ body {
     background-color: #745d79;
 }
 
-.listas-foter {}
+.listas-foter {
+    list-style: none;
+}
