@@ -96,3 +96,7 @@ body {
     display: grid;
     place-content: center;
 }
+
+.listas-foter {
+    padding: 0;
+}
