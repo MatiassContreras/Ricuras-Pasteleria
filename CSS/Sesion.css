@@ -22,4 +22,7 @@ body {
     border-bottom: 1px solid silver;
 }
 
-.formulario form {}
+.formulario form {
+    padding: auto;
+    box-sizing: border-box;
+}
