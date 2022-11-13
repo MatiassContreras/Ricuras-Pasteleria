@@ -81,3 +81,8 @@ body {
     color: #ffffff;
     transition: all 0.5s ease;
 }
+
+.grid-container_footer .Informacion a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
