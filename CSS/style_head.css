@@ -163,6 +163,8 @@
 
     /* delay de transicion */
     transition: .7s ease all;
+    /* que lo tome como link */
+    cursor: pointer;
 }
 
 .head_bot :hover{
