@@ -86,3 +86,9 @@ a {
     align-items: center;
     transition: .7s ease all;
 }
+
+.head_button :hover {
+    font-size: 100%;
+    color: var(--background-container);
+    background-color: var(--border);
+}
