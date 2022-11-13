@@ -11,6 +11,9 @@ body{
     height: auto;
     grid-template-columns: 19.91% auto 20%;
 }
+
+/* Lista de productos */
+
 .Lista-Productos{
     background-color: #d2b3c3;
     border-right: 2px solid #745d79;
