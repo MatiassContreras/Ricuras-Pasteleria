@@ -3,4 +3,9 @@
     font-family: cuerpo;
 }
 
-:root {}
+:root {
+    --border: #745d79;
+    --background-container: #e7c2ca;
+    --background-button: #b393ab;
+    --background: #e7c2ca;
+}
