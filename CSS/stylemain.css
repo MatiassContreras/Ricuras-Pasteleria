@@ -3,6 +3,7 @@
 /* ----------------------------------------------------------- Inicio Main ---------------------------------------------------- */
 :root{
     --border: #745d79;
+    --background-top: #e7c2ca;
 }
 .Main-container {
     position: relative;
