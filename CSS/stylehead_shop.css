@@ -62,15 +62,7 @@
     /* definir transision del hover */
     transition: .7s ease all;
 }
-.headd_.wheel{
-    /* definir grid */
-    display: grid;
-    /* centrar contenido y items */
-    place-content: center;
-    place-items: center;
-    /* definir transision del hover */
-    transition: .7s ease all;
-}
+
 .headd_ :hover{
     /* se aumente la escala .05 mas */
     scale: 1.05;
