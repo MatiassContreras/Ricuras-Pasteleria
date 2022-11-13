@@ -58,3 +58,5 @@
         background: none;
         outline: none;
     }
+    
+    .username label {}
