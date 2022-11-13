@@ -39,4 +39,12 @@
         margin: 30px 0;
     }
     
-    .username input {}
+    .username input {
+        width: 100%;
+        padding: 0 5px;
+        height: 40px;
+        font-size: 16px;
+        border: none;
+        background: none;
+        outline: none;
+    }
