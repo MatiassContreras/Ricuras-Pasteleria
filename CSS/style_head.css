@@ -101,14 +101,12 @@
 
 .logo img{
     /* altura y ancho total divido por 4*/
-    width: 259.5px;
-    height: 105px;
+    transform: scale(20%);
 }
 
 .shopwheel img{
     /* altura y ancho total divido por -30- */
-    width: 36px;
-    height: 30.2px;
+    transform: scale(3.3%);
 
     /* filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(90%) contrast(87%); */
     filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(0%) contrast(87%);
