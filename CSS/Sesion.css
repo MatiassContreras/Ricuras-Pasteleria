@@ -90,3 +90,9 @@
      height: 2px;
      background: #745d79;
  }
+ 
+ .username input:focus~label,
+ .contraseña input:focus~label {
+     top: -5px;
+     color: #745d79;
+ }
