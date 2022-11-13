@@ -5,10 +5,10 @@
 }
 
 :root{
-    --border: #450a20;
-    --background-top: #ffa5ac;
-    --background-top-bot: #a53861;
-    --background: #f9dbbd;
+    --border: #745d79;
+    --background-top: #e7c2ca;
+    --background-top-bot: #b393ab;
+    --background: #f7d1cd;
 }
 
 *{
@@ -18,7 +18,7 @@
 
 .parent{
     height: 10000px;
-    background-color: #FFE5D9;
+    background-color: var(--background);
 }
 
 .head_bot a{
@@ -170,7 +170,7 @@
     font-size: 100%;
 
     /* color de fuente */
-    color: var(--font);
+    color: var(--background-top);
     /* color */
     background-color: var(--border);
 }
