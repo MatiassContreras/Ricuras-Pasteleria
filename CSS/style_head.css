@@ -21,7 +21,7 @@
     background-color: #FFE5D9;
 }
 
-a{
+.head_bot a{
     display: grid;
     position: relative;
     color: black;
