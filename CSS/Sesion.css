@@ -59,4 +59,13 @@
         outline: none;
     }
     
-    .username label {}
+    .username label {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        color: #a7a7a7;
+        transform: translateY(-50%);
+        font-size: 16px;
+        pointer-events: none;
+        transition: .5s;
+    }
