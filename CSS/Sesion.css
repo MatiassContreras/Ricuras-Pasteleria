@@ -1,1 +1,7 @@
-body {}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(150deg, #745d79, #f7d1cd);
+    height: 100vh;
+}
