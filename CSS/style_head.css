@@ -131,7 +131,7 @@ ul {
     --background: #f7d1cd;
 }
 
-.head_container a{
+a{
     display: grid;
     position: relative;
     color: black;
