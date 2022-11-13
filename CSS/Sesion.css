@@ -141,3 +141,7 @@
                      color: blue;
                      text-decoration: none;
                  }
+                 
+                 .registrarse a:hover {
+                     text-decoration: underline;
+                 }
