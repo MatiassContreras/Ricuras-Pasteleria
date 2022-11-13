@@ -23,3 +23,5 @@ body {
     font-weight: 500;
     position: relative;
 }
+
+.grid-container_footer h4::before {}
