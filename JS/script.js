@@ -19,5 +19,7 @@ function slides() {
     slider.style.transition = "transform .8s";
     contador++;
 
-    if (contador == sliderIndividual.length) {}
+    if (contador == sliderIndividual.length) {
+        setTimeout(function() {}, 1500)
+    }
 }
