@@ -113,4 +113,14 @@
          text-decoration: underline;
      }
      
-     .Submit {}
+     .Submit {
+         width: 75%;
+         height: 50px;
+         border: 1px solid;
+         background: #745d79;
+         border-radius: 25px;
+         font-size: 18px;
+         color: white;
+         cursor: pointer;
+         outline: none;
+     }
