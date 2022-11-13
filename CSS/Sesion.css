@@ -1,40 +1,42 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(150deg, #745d79, #f7d1cd);
-    height: 100vh;
-}
-
-.formulario {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    background: white;
-    border-radius: 10px;
-}
-
-.formulario h1 {
-    text-align: center;
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid silver;
-}
-
-.formulario form {
-    padding: auto;
-    box-sizing: border-box;
-}
-
-form .username {
-    position: relative;
-    border-bottom: 2px solid silver;
-    margin: 30px 0;
-}
-
-form .contraseña {
-    position: relative;
-    border-bottom: 2px solid silver;
-    margin: 30px 0;
-}
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(150deg, #745d79, #f7d1cd);
+        height: 100vh;
+    }
+    
+    .formulario {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background: white;
+        border-radius: 10px;
+    }
+    
+    .formulario h1 {
+        text-align: center;
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid silver;
+    }
+    
+    .formulario form {
+        padding: auto;
+        box-sizing: border-box;
+    }
+    
+    form .username {
+        position: relative;
+        border-bottom: 2px solid silver;
+        margin: 30px 0;
+    }
+    
+    form .contraseña {
+        position: relative;
+        border-bottom: 2px solid silver;
+        margin: 30px 0;
+    }
+    
+    .username input {}
