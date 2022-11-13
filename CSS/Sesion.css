@@ -96,3 +96,8 @@
      top: -5px;
      color: #745d79;
  }
+ 
+ .username input:focus~span::before,
+ .contraseña input:focus~span::before {
+     width: 100%;
+ }
