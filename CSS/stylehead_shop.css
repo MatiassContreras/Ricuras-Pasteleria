@@ -31,7 +31,7 @@
 }
 
 .headd_.logo img{
-    /* definir alto y ancho */
+    /* reducir alto y ancho a 20% */
     transform: scale(20%);
 }
 .headd_.wheel img{
