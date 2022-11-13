@@ -15,7 +15,7 @@
     padding: 0;
 }
 
-a {
+.a-head {
     display: grid;
     position: relative;
     color: black;
