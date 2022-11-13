@@ -21,7 +21,7 @@
     background-color: var(--background);
 }
 
-.head_bot a{
+.head_container a{
     display: grid;
     position: relative;
     color: black;
