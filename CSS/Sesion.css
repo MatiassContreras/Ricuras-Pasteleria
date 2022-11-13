@@ -16,4 +16,8 @@ body {
     border-radius: 10px;
 }
 
-.formulario h1 {}
+.formulario h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
