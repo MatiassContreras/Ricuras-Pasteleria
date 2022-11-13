@@ -49,3 +49,5 @@ body {
     display: block;
     transition: all 0.3s ease;
 }
+
+.grid-container_footer ul li a:hover {}
