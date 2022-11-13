@@ -1,0 +1,1 @@
+let slider = document.querySelector(".slider-contenedor")
