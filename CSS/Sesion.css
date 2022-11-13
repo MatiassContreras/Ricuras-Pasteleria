@@ -102,4 +102,9 @@
      width: 100%;
  }
  
- .recordar {}
+ .recordar {
+     margin-top: 20px;
+     color: blue;
+     cursor: pointer;
+     text-align: center;
+ }
