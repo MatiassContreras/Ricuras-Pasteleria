@@ -37,7 +37,7 @@ body{
 
 .estilo-c .img-container {
     overflow: hidden;
-    height: auto;
+    height: 70%;
     position: relative;
     border-radius: 15px;
 }
