@@ -17,4 +17,5 @@ setInterval(function() {
 function slides() {
     slider.style.transform = "translate(" + (-width * contador) + "px)";
     slider.style.transition = "transform .8s";
+    contador++;
 }
