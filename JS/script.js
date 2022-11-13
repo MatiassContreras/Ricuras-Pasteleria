@@ -20,6 +20,9 @@ function slides() {
     contador++;
 
     if (contador == sliderIndividual.length) {
-        setTimeout(function() {}, 1500)
+        setTimeout(function() {
+            slider.style.transform = "translate(0px)";
+            slider.style.transition = "transform 0s";
+        }, 1500)
     }
 }
