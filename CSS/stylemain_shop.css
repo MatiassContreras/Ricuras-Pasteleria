@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 8.33% 0;
+    padding-bottom: 8.33%;
 }
 
 .card {
