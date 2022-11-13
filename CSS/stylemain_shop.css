@@ -24,6 +24,7 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     padding-bottom: 8.33%;
+    margin-left: 8%;
 }
 
 .card {
