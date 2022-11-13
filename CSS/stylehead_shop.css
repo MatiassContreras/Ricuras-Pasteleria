@@ -6,10 +6,10 @@
 
 :root{
     /* definir colores */
-    --border: #450a20;
-    --background-container: #ffa5ac;
-    --background-button: #a53861;
-    --background: #f9dbbd;
+    --border: #745d79;
+    --background-container: #e7c2ca;
+    --background-button: #b393ab;
+    --background: #f7d1cd;
 }
 *{
     /* sacar el padding y margin */
