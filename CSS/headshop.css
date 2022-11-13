@@ -28,3 +28,9 @@ a {
     width: 207.6px;
     height: 84px;
 }
+
+.headd_.wheel img {
+    width: 36px;
+    height: 30.2px;
+    filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(0%) contrast(87%);
+}
