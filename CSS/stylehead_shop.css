@@ -83,6 +83,8 @@
     /* definir borde superior e inferior */
     border-top: 2px solid var(--border);
     border-bottom: 2px solid var(--border);
+    /* que lo tome como link */
+    cursor: pointer;
 }
 .head_button button{
     /* definir grid */
