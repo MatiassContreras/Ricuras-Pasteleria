@@ -11,3 +11,9 @@ window.addEventListener("resize", function() {
 setInterval(function() {
     slides();
 }, intervalo);
+
+
+
+function slides() {
+
+}
