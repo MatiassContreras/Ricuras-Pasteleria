@@ -33,7 +33,7 @@
 .headd_.logo img{
     /* definir alto y ancho */
     width: calc(1038/5);
-    height: 84px;
+    height: calc(420/5);
 }
 .headd_.wheel img{
     /* definir alto y ancho */
