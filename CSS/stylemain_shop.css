@@ -8,7 +8,7 @@ body{
 
 .Productos {
     display: grid;
-    height: 600px;
+    height: auto;
     grid-template-columns: 20% auto 20%;
 }
 
@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 8.33% 0 25%;
+    padding: 8.33% 0;
 }
 
 .card {
