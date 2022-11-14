@@ -32,4 +32,5 @@
 }
 .contact:hover button{
     color: var(--background-top);
+    background-color: var(--border);
 }
