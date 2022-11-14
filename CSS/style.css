@@ -47,11 +47,12 @@ body {
     background-color: #745d79;
 }
 
-ul {
+.lista-footer {
     list-style: none;
 }
 
 .grid-container_footer h4 {
+    padding-top: 20px;
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
@@ -133,6 +134,6 @@ ul {
     place-content: center;
 }
 
-ul {
+.lista-footer {
     padding: 0;
 }
