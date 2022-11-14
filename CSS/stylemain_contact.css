@@ -4,7 +4,7 @@
     position: relative;
     grid-template-columns: 50% 50%;
     margin: 0 6%;
-    padding-top: 4%;
+    padding: 4%;
 }
 .contact{
     background-color: var(--background-top);
