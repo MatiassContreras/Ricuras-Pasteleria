@@ -20,6 +20,7 @@ ul {
 }
 
 .grid-container_footer h4 {
+    padding-top: 20px;
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
