@@ -26,11 +26,11 @@
     font-family: cuerpo;
     font-size: 15pt;
     padding: 8%;
-    border: 3px solid black;
+    border: 3px solid var(--border);
     border-radius: 30px;
     transition: .7s ease all;
 }
-.contact:hover button{
+.content:hover button{
     color: var(--background-top);
     background-color: var(--border);
 }
