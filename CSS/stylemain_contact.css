@@ -10,6 +10,7 @@
 }
 a{
     display: grid;
+    text-decoration: none;
 }
 .contact{
     background-color: var(--background-top);
