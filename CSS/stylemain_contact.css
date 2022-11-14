@@ -8,7 +8,9 @@
     place-content: center;
     place-items: center;
 }
-a{}
+a{
+    display: grid;
+}
 .contact{
     background-color: var(--background-top);
     margin: 0 3%;
