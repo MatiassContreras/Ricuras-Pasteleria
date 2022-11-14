@@ -23,6 +23,7 @@ a {
     height: 100%;
     width: 100%;
     text-decoration: none;
+    transition: 0.7s ease all;
 }
 
 
@@ -48,6 +49,7 @@ a {
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 120px;
     /* ubicacion de contenido*/
+    height: 150px;
     place-items: center;
     place-content: center;
 }
@@ -69,6 +71,12 @@ a {
     height: 100%;
     /* ubicacion de contenido*/
     place-items: center;
+}
+
+#Sesion {
+    position: absolute;
+    margin-left: 80%;
+    transition: 0.7s ease all;
 }
 
 .social-links a {
