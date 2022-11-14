@@ -145,3 +145,8 @@ form .contraseña {
 .registrarse a:hover {
     text-decoration: underline;
 }
+
+h2 {
+    font-size: 10px;
+    color: red;
+}
