@@ -1,22 +1,26 @@
-@import url(parametros.css);
-@import url(main.css);
-@import url(footer.css);
-
-/* ----------------------------------------------------------- Inicio Header ---------------------------------------------------- */
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@700&display=swap');
 @font-face {
     src: url("../Fuentes/NexaRustSans-Black.otf");
     font-family: cuerpo;
 }
 
-:root {
+:root{
     --border: #745d79;
     --background-top: #e7c2ca;
     --background-top-bot: #b393ab;
-    --background: #f9dbbd;
+    --background: #f7d1cd;
 }
 
-a {
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    background-color: var(--background);
+}
+
+a{
     display: grid;
     position: relative;
     color: black;
@@ -26,16 +30,13 @@ a {
     transition: 0.7s ease all;
 }
 
-
 /* Header */
 
-
 /* Container */
-
-.head_container {
-    /* indicar grid */
-    display: grid;
-    /* color */
+.head_container{
+     /* indicar grid */
+     display: grid;
+     /* color */
     background-color: var(--background-top);
     /* tamaño de los lados */
     padding-left: 6%;
@@ -45,30 +46,36 @@ a {
 .head_top {
     /* indicar grid */
     display: grid;
+    
     /* declarar columnas y filas */
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 120px;
+
     /* ubicacion de contenido*/
     height: 150px;
     place-items: center;
     place-content: center;
 }
 
-.head_top div :hover {
+.head_top div :hover{
     /* tamaño de aumento */
     scale: 1.05;
+    
     /* delay de la transicion */
     transition: .7s ease all;
 }
 
-.social-links {
+.social-links{
     /* indicar grid */
     display: grid;
+    
     /* declarar columnas */
-    grid-template-columns: 40% 0% auto;
+    grid-template-columns: 40% 0%  auto ;
+    
     /* altura y ancho ocupado */
     width: 100%;
     height: 100%;
+    
     /* ubicacion de contenido*/
     place-items: center;
 }
@@ -87,29 +94,34 @@ a {
 .social-links a {
     /* indicar grid */
     display: grid;
+
     /* color de fondo */
     background-color: rgba(255, 255, 255, 0.2);
     /* color */
     color: black;
+
     /* altura y ancho ocupado */
     height: 30px;
     width: 30px;
+
     /* radio de borde */
     border-radius: 50%;
+
     /* ubicacion de los items*/
     place-items: center;
 }
 
-.logo img {
+.logo img{
     /* altura y ancho total divido por 4*/
     width: 259.5px;
     height: 105px;
 }
 
-.shopwheel img {
+.shopwheel img{
     /* altura y ancho total divido por -30- */
     width: 36px;
     height: 30.2px;
+
     /* filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(90%) contrast(87%); */
     filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(0%) contrast(87%);
 }
@@ -117,48 +129,62 @@ a {
 .head_bot {
     /* indicar grid */
     display: grid;
+
     /* declarar los bordes y color */
     border-top: 2px solid var(--border);
     border-bottom: 2px solid var(--border);
+
     /* color */
     background-color: var(--background-top-bot);
+
     /* declarar columnas y filas  */
     grid-template-columns: repeat(5, 14.28%);
     grid-template-rows: 65.5px;
+
     /* ubicacion de contenido*/
     place-items: center;
     place-content: center;
 }
 
 .head_bot button {
-    color: black;
     /* indicar grid */
     display: grid;
+
     /* posicion */
     position: relative;
+
     /* indicar ausencia de bordes */
     border: none;
+
     /* color */
     background-color: var(--background-top-bot);
+
     /* fuente */
     font-family: cuerpo;
+
     /* tamaño de fuente */
     font-size: 13.8px;
+
     /* ubicacion del contenido */
     justify-content: center;
     align-items: center;
+
     /* altura ocupada */
-    height: 100%;
+    height:  100%;
     width: 100%;
+
     /* delay de transicion */
     transition: .7s ease all;
+    /* que lo tome como link */
+    cursor: pointer;
 }
 
-.head_bot :hover {
+.head_bot :hover{
     /* tamaño de aumento */
     font-size: 100%;
+
     /* color de fuente */
-    color: white;
+    color: var(--background-top);
     /* color */
     background-color: var(--border);
 }

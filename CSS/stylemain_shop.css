@@ -1,10 +1,10 @@
 .Productos {
     display: grid;
-    height: 600px;
+    height: auto;
     grid-template-columns: 25% 50% 25%;
 }
 
-
+/* Lista de productos */
 /* Productos */
 
 .producto {
@@ -46,7 +46,7 @@
 
 .estilo-c .img-container .promo {
     position: absolute;
-    top: 10px;
+    top: 16px;
     left: 0;
     font-size: 20px;
     background: white;
