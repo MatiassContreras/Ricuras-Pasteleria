@@ -4,6 +4,7 @@
     position: relative;
     grid-template-columns: 50% 50%;
     margin: 0 8%;
+    padding-top: 4%;
 }
 .main_container div{
     background-color: var(--background-top);
