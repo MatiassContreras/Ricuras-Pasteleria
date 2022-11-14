@@ -14,5 +14,6 @@
 .img img{
     height: 100%;
     width: calc(100% - 75%);
+    margin: 3% 40% 2%;
 }
 .content{}
