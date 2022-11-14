@@ -1,2 +1,4 @@
 @import url(stylehead.css);
-.main_container{}
+.main_container{
+    display: grid;
+}
