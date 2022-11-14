@@ -15,5 +15,6 @@
     height: 100%;
     width: calc(100% - 75%);
     margin: 3% 40% 2%;
+    filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(-100%) contrast(87%);
 }
 .content{}
