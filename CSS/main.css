@@ -118,4 +118,6 @@
     margin-left: 5.3%;
 }
 
-.Personaliza {}
+.Personaliza {
+    display: flex;
+}
