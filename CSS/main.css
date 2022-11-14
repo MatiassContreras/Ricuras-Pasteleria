@@ -156,7 +156,9 @@
     scale: 1.05;
 }
 
-.Recetas a {}
+.Recetas a {
+    transition: 0.4s ease all;
+}
 
 .Recetas a img {
     width: 100%;
