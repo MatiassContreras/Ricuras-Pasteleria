@@ -11,7 +11,7 @@
     margin: 0 3%;
     border-radius: 25px;
 }
-.img img{
+img{
     height: 100%;
     width: calc(100% - 75%);
     margin: 3% 40% 2%;
@@ -25,5 +25,6 @@
     font-family: cuerpo;
     font-size: 15pt;
     padding: 8%;
+    border: 3px solid black;
     border-radius: 30px;
 }
