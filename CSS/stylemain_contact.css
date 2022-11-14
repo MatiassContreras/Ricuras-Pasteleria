@@ -4,7 +4,7 @@
     position: relative;
     grid-template-columns: 50% 50%;
     margin: 0 6%;
-    padding: 4% 10% 0;
+    padding: 4% 10%;
     place-content: center;
     place-items: center;
 }
