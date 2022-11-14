@@ -148,7 +148,9 @@
     border-radius: 4%;
 }
 
-.Personaliza a {}
+.Personaliza a {
+    transition: 0.4s ease all;
+}
 
 .Recetas a img {
     width: 100%;
