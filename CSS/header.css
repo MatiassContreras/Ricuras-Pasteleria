@@ -73,7 +73,9 @@ a {
     place-items: center;
 }
 
-#Sesion {}
+#Sesion {
+    position: absolute;
+}
 
 .social-links a {
     /* indicar grid */
