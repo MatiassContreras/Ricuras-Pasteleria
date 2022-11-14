@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@700&display=swap');
+
+/* ----------------------------------------------------------- Inicio Main ---------------------------------------------------- */
+:root{
+    --border: #745d79;
+    --background-top: #e7c2ca;
+    --background-top-bot: #b393ab;
+    --background: #f7d1cd;
+}
+.Main-container {
+    position: relative;
+    display: flex;
+    background-color: #f7d1cd;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+.layout {
+    position: absolute;
+    border: 2px solid var(--border);
+    margin: 30px;
+    width: 96.6%;
+    height: 30%;
+}
+
+.prod-populares {
+    position: absolute;
+    background-color: var(--background-top-bot);
+    border: 2px solid var(--border);
+    border-radius: 25px;
+    margin: 30px;
+    margin-left: 30px;
+    margin-top: 660px;
+    width: 96.6%;
+    height: 300px;
+}
+
+.sobre-mi {
+    position: relative;
+    background-color: var(--background-top-bot);
+    border-top: 2px solid var(--border);
+    border-bottom: 2px solid var(--border);
+    /* Esta propiedad (margin-top) es la encargada de manejar el tamaño del main, mientras mayor sea, mas tamaño*/
+    margin-top: 1500px;
+    width: 100%;
+    height: 400px;
+}
+
+#h1-sobremi {
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+.h1-sobremi {
+    color: black;
+    text-align: center;
+}
+
+#h1-populares {
+    color: black;
+    text-align: center;
+    font-family: cuerpo;
+}
+
+.sobre-mi div {
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 1%;
+    margin-left: 3.5%;
+    padding-right: 10px;
+    width: 44%;
+    height: 300px;
+    border: 2px solid var(--border);
+    float: left;
+    background-color: var(--border);
+}
+
+.prod-populares a {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 1%;
+    width: 10%;
+    height: 200px;
+    background-color: var(--border);
+    float: left;
+    border-radius: 4%;
+    transition: 0.4s ease all;
+}
+
+.prod-populares a:hover {
+    scale: 1.1;
+}
+
+.prod-populares a div img {
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+.prod-populares a div {
+    width: 100%;
+}
+
+.h1-prod-popular {
+    color: white;
+    margin-top: 0%;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.prod-populares a:first-of-type {
+    margin-left: 5.3%;
+}
