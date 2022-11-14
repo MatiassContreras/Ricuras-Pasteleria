@@ -9,5 +9,6 @@
 .contact{
     background-color: var(--background-top);
     margin: 0 3%;
+    border-radius: 25px;
 }
 .contact.wpp{}
