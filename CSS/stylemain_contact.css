@@ -28,6 +28,8 @@
     padding: 8%;
     border: 3px solid black;
     border-radius: 30px;
-    transition: .7 ease all;
+    transition: .7s ease all;
 }
-.contact:hover button{}
+.contact :hover button{
+    background-color: var(--background-top);
+}
