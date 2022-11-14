@@ -126,4 +126,5 @@
     height: 23%;
     position: absolute;
     border: 2px solid var(--border);
+    width: 32%;
 }
