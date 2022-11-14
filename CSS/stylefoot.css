@@ -11,7 +11,7 @@ body {
 .grid-container_footer {
     height: 250px;
     display: grid;
-    grid-template-columns: auto 350px auto 320px auto;
+    grid-template-columns: auto 20% 25% 20% 12%;
     background-color: #745d79;
 }
 
