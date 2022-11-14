@@ -5,6 +5,7 @@
     grid-template-columns: 50% 50%;
     margin: 0 6%;
     padding: 4% 10% 0;
+    place-content: center;
 }
 .contact{
     background-color: var(--background-top);
