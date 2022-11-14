@@ -142,4 +142,7 @@
     background-color: var(--background-top-bot);
 }
 
-.Personaliza a img {}
+.Personaliza a img {
+    width: 100%;
+    height: 100%;
+}
