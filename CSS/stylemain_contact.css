@@ -36,4 +36,5 @@
 .content:hover button{
     color: var(--background-top);
     background-color: var(--border);
+    scale: 1.05;
 }
