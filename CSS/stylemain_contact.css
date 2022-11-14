@@ -18,6 +18,7 @@ img{
     filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(-100%) contrast(87%);
 }
 .content{
+    display: grid;
     margin: 0 8% 8%;
 }
 .contact button{
