@@ -14,12 +14,12 @@
 .img img{
     height: 100%;
     width: calc(100% - 75%);
-    margin: 3% 40% 2%;
+    margin: 8% 40% 0;
     filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(-100%) contrast(87%);
 }
 .content{
     display: grid;
-    margin: 8% 8%;
+    margin: 4% 8% 8%;
 }
 .contact button{
     background-color: transparent;
