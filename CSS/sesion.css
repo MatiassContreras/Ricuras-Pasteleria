@@ -4,6 +4,8 @@ body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(150deg, #745d79, #f7d1cd);
     height: 100vh;
+    overflow: hidden;
+    animation: body 1s;
 }
 
 .formulario {
@@ -123,6 +125,7 @@ form .contraseña {
     color: white;
     cursor: pointer;
     outline: none;
+    animation: boton 2s;
 }
 
 .Submit:hover {
