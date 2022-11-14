@@ -1,9 +1,9 @@
-function addElemento(input) {
+function addElemento(input, input2) {
 
-    if (input == "Hola") {
+    if (input == "" && input2 == "") {
         var capa = document.getElementById("capa");
-        var h1 = document.createElement('h1')
-        h1.innerHTML = "Ingrese parametros en los dos"
+        var h2 = document.createElement('h2')
+        h2.innerHTML = "Ingrese parametros en los dos"
         capa.appendChild(h2);
     }
 
