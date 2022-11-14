@@ -6,6 +6,7 @@
     margin: 0 6%;
     padding: 4% 10% 0;
     place-content: center;
+    place-items: center;
 }
 .contact{
     background-color: var(--background-top);
