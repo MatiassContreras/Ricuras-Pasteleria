@@ -1,0 +1,171 @@
+@import url(parametros.css);
+@import url(footer.css);
+@import url(header.css);
+
+/* ----------------------------------------------------------- Inicio Main ---------------------------------------------------- */
+
+.Main-container {
+    position: relative;
+    display: flex;
+    background-color: #f7d1cd;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+}
+
+.layout {
+    position: absolute;
+    border: 2px solid var(--border);
+    margin: 30px;
+    width: 96.6%;
+    height: 30%;
+}
+
+.prod-populares {
+    position: absolute;
+    background-color: var(--background-top-bot);
+    border: 2px solid var(--border);
+    margin: 30px;
+    margin-left: 30px;
+    margin-top: 660px;
+    width: 96.6%;
+    height: 300px;
+}
+
+.sobre-mi {
+    position: relative;
+    background-color: var(--background-top-bot);
+    border-top: 2px solid var(--border);
+    border-bottom: 2px solid var(--border);
+    /* Esta propiedad (margin-top) es la encargada de manejar el tamaño del main, mientras mayor sea, mas tamaño*/
+    margin-top: 1500px;
+    width: 100%;
+    height: 400px;
+}
+
+#h1-sobremi {
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+.h1-sobremi {
+    color: black;
+    text-align: center;
+}
+
+#h1-populares {
+    color: black;
+    text-align: center;
+    font-family: cuerpo;
+}
+
+.sobre-mi div {
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 1%;
+    margin-left: 3.5%;
+    padding-right: 10px;
+    width: 44%;
+    height: 300px;
+    border: 2px solid var(--border);
+    float: left;
+    background-color: var(--border);
+}
+
+.prod-populares a {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 1%;
+    width: 10%;
+    height: 200px;
+    background-color: var(--border);
+    float: left;
+    border-radius: 4%;
+    transition: 0.4s ease all;
+}
+
+#First {
+    margin-left: 6.50%;
+}
+
+.prod-populares a:hover {
+    scale: 1.1;
+}
+
+.prod-populares a div img {
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+.prod-populares a div {
+    width: 100%;
+}
+
+.h1-prod-popular {
+    color: white;
+    margin-top: 0%;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.prod-populares a:first-of-type {
+    margin-left: 5.3%;
+}
+
+.Personaliza {
+    display: flex;
+    margin-top: 1010px;
+    border-radius: 4%;
+    margin-left: 53%;
+    height: 23%;
+    position: absolute;
+    border: 2px solid var(--border);
+    width: 32%;
+    background-color: var(--background-top-bot);
+}
+
+.Recetas {
+    display: flex;
+    margin-top: 1010px;
+    margin-left: 15%;
+    border-radius: 4%;
+    height: 23%;
+    position: absolute;
+    border: 2px solid var(--border);
+    width: 32%;
+    background-color: var(--background-top-bot);
+}
+
+.Personaliza a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+}
+
+.Personaliza a {
+    transition: 0.4s ease all;
+}
+
+.Personaliza a:hover {
+    scale: 1.05;
+}
+
+.Recetas a {
+    transition: 0.4s ease all;
+}
+
+.Recetas a:hover {
+    scale: 1.05;
+}
+
+.Recetas a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+}
