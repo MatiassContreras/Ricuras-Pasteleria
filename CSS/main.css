@@ -125,4 +125,5 @@
     margin-left: 53%;
     height: 23%;
     position: absolute;
+    border: 2px solid var(--border);
 }
