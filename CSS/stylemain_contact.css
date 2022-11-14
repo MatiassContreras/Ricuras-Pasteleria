@@ -33,4 +33,5 @@
 .content:hover button{
     color: var(--background-top);
     background-color: var(--border);
+    font-size: 17pt;
 }
