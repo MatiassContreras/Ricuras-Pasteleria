@@ -11,4 +11,6 @@
     margin: 0 3%;
     border-radius: 25px;
 }
-.contact.wpp img{}
+.contact.wpp img{
+    height: 100%;
+}
