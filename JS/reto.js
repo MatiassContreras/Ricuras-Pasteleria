@@ -6,5 +6,7 @@ function addElemento(input, input2) {
         h2.innerHTML = "Ingrese parametros en los dos"
         capa.appendChild(h2);
         document.getElementById("mov").href = 'CSS/reto.css';
+    } else {
+        location.reload()
     }
 }
