@@ -1,11 +1,3 @@
-body{
-    background-image: url(../imagenes/fondo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-}
-
 .Productos {
     display: grid;
     height: auto;
@@ -13,12 +5,6 @@ body{
 }
 
 /* Lista de productos */
-
-.Lista-Productos{
-    background-color: #d2b3c3;
-    border-right: 2px solid #745d79;
-}
-
 /* Productos */
 
 .producto {
@@ -26,13 +12,11 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-bottom: 8.33%;
-    margin-left: 8%;
+    padding: 50px 0;
 }
 
 .card {
-    margin-top: 8.33%;
-    width: auto;
+    width: 33%;
 }
 
 
@@ -45,7 +29,7 @@ body{
 
 .estilo-c .img-container {
     overflow: hidden;
-    height: 70%;
+    height: auto;
     position: relative;
     border-radius: 15px;
 }
