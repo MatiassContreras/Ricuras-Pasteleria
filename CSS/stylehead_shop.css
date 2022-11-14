@@ -1,0 +1,118 @@
+/* definir fuente */
+@font-face {
+    src: url("NexaRustSans-Black.otf");
+    font-family: cuerpo;
+}
+
+:root{
+    /* definir colores */
+    --border: #745d79;
+    --background-container: #e7c2ca;
+    --background-button: #b393ab;
+    --background: #f7d1cd;
+}
+*{
+    /* sacar el padding y margin */
+    margin: 0;
+    padding: 0;
+}
+.head_container a{
+    /* definir grid */
+    display: grid;
+    /* definir posicion relativa */
+    position: relative;
+    /* color negro */
+    color: black;
+    /* ocupa el 100% de la caja */
+    height: 100%;
+    width: 100%;
+    /* que no haya subarayado */
+    text-decoration: none;
+}
+
+.headd_.logo img{
+    /* definir alto y ancho */
+    width: 207.6px;
+    height: 84px;
+}
+.headd_.wheel img{
+    /* definir alto y ancho */
+    width: 36px;
+    height: 30.2px;
+    /* filtro para cambiar el color a negro */
+    filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(0%) contrast(87%);
+}
+.head_container{
+    /* definir grid */
+    display: grid;
+    /* definir color de fondo */
+    background-color: var(--background-container);
+    /* definir columnas y filas */
+    grid-template-rows: 100px;
+    grid-template-columns: 20% auto 10%;
+    /* padding de separacion con el logo */
+    padding-right: 1%;
+}
+.headd_{
+    /* definir grid */
+    display: grid;
+    /* centrar contenido y items */
+    place-content: center;
+    place-items: center;
+    /* definir transision del hover */
+    transition: .7s ease all;
+}
+
+.headd_ :hover{
+    /* se aumente la escala .05 mas */
+    scale: 1.05;
+    /* definir transision del hover */
+    transition: .7s ease all;
+} 
+.head_button{
+    /* definir grid */
+    display: grid;
+    /* definir columnas */
+    grid-template-columns: repeat(5, 20%);
+    /* definir espacios */
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* definir color de fondo */
+    background-color: var(--background-button);
+    /* definir borde superior e inferior */
+    border-top: 2px solid var(--border);
+    border-bottom: 2px solid var(--border);
+    /* que lo tome como link */
+    cursor: pointer;
+}
+.head_button button{
+    /* definir grid */
+    display: grid;
+    /* definir posicion relativa */
+    position: relative;
+    /* definir ausencia */
+    border: none;
+    /* definir color de fondo */
+    background-color: var(--background-button);
+    /* definir fuente */
+    font-family: cuerpo;
+    /* tamaño de la fuente */
+    font-size: 13.8px;
+    /* altura y espacio ocupados */
+    height:  100%;
+    width: 100%;
+    /* centrar contenido e items */
+    justify-content: center;
+    align-items: center;
+    /* definir transision del hover */
+    transition: .7s ease all;
+}
+.head_button :hover{
+    /* aumento del tamaño de la fuente */
+    font-size: 100%;
+    /* cambiar el color */
+    color: var(--background-container);
+    /* cambiar el color de fondo */
+    background-color: var(--border);
+}
