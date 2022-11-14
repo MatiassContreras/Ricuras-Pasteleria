@@ -1,0 +1,44 @@
+@import url(stylehead.css);
+.main_container{
+    display: grid;
+    position: relative;
+    grid-template-columns: 50% 50%;
+    margin: 0 6%;
+    padding: 4% 10% 0;
+    place-content: center;
+    place-items: center;
+}
+a{
+    display: grid;
+    text-decoration: none;
+}
+.contact{
+    background-color: var(--background-top);
+    margin: 0 3%;
+    border-radius: 25px;
+    height: 285px;
+}
+.img img{
+    height: 100%;
+    width: calc(100% - 75%);
+    margin: 8% 40% 0;
+    filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(-100%) contrast(87%);
+}
+.content{
+    display: grid;
+    margin: 4% 8% 8%;
+}
+.contact button{
+    background-color: transparent;
+    font-family: cuerpo;
+    font-size: 15pt;
+    padding: 8%;
+    border: 3px solid var(--border);
+    border-radius: 30px;
+    transition: .7s ease all;
+}
+.content:hover button{
+    color: var(--background-top);
+    background-color: var(--border);
+    scale: 1.05;
+}
