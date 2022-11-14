@@ -160,7 +160,9 @@
     transition: 0.4s ease all;
 }
 
-.Recetas a:hover {}
+.Recetas a:hover {
+    scale: 1.05;
+}
 
 .Recetas a img {
     width: 100%;
