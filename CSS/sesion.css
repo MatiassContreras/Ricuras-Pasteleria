@@ -126,6 +126,7 @@ form .contraseña {
     cursor: pointer;
     outline: none;
     animation: boton 2s;
+    margin-bottom: 10px;
 }
 
 .Submit:hover {
