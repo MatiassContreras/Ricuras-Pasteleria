@@ -8,5 +8,6 @@
 }
 .contact{
     background-color: var(--background-top);
+    margin: 0 3%;
 }
 .contact.wpp{}
