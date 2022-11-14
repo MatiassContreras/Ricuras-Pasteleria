@@ -19,7 +19,7 @@
 }
 .content{
     display: grid;
-    margin: 0 8%;
+    margin: 8% 8%;
 }
 .contact button{
     background-color: transparent;
