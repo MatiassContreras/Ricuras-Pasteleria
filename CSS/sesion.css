@@ -123,6 +123,7 @@ form .contraseña {
     color: white;
     cursor: pointer;
     outline: none;
+    animation: boton 1s;
 }
 
 .Submit:hover {
