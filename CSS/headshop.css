@@ -1,0 +1,98 @@
+@font-face {
+    src: url("NexaRustSans-Black.otf");
+    font-family: cuerpo;
+}
+
+:root {
+    --border: #745d79;
+    --background-container: #e7c2ca;
+    --background-button: #b393ab;
+    --background: #e7c2ca;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a-head {
+    display: grid;
+    position: relative;
+    color: black;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.headd_.logo img {
+    width: 207.6px;
+    height: 84px;
+}
+
+.headd_.wheel img {
+    width: 36px;
+    height: 30.2px;
+    filter: invert(28%) sepia(56%) saturate(1350%) hue-rotate(299deg) brightness(0%) contrast(87%);
+}
+
+.head_container {
+    display: grid;
+    background-color: var(--background-container);
+    grid-template-rows: 100px;
+    grid-template-columns: 19% auto 17.7%;
+    padding-right: 1%;
+}
+
+.headd_ {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    transition: .7s ease all;
+}
+
+.headd_.wheel {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    transition: .7s ease all;
+}
+
+.headd_ :hover {
+    scale: 1.05;
+    transition: .7s ease all;
+}
+
+.head_button {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: var(--background-button);
+    border-top: 2px solid var(--border);
+    border-bottom: 2px solid var(--border);
+}
+
+.head_button button {
+    display: grid;
+    position: relative;
+    border: none;
+    background-color: var(--background-button);
+    font-family: cuerpo;
+    font-size: 13.8px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: .7s ease all;
+}
+
+.head_button :hover {
+    font-size: 100%;
+    color: var(--background-container);
+    background-color: var(--border);
+}

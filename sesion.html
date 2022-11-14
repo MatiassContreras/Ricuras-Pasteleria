@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/sesion.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="JS/reto.js"></script>
+    <link id="mov" rel="stylesheet" href="#">
+</head>
+
+<body>
+    <header class="head_container">
+        <!-- Seccion superior de HEADER -->
+        <div class="head_top">
+
+            <div class="social-links">
+                <a href="https://api.whatsapp.com/send/?phone=542995019454&text&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/pasteleria__ricuras/?hl=es"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imagenes/Logo_ricuras.png" alt="Ricuras Pasteleria" title="Ricuras Pasteleria">
+                </a>
+            </div>
+
+            <div class="shopwheel">
+                <a href="#">
+                    <img src="imagenes/Carrito.png" alt="Carrito" title="Carrito">
+                </a>
+            </div>
+
+            <div id="Sesion">
+                <a href="sesion.html">
+                    <h2 id="sesioni">Iniciar Sesion</h2>
+                </a>
+            </div>
+        </div>
+        <!-- Fin seccion superior de header -->
+        <!-- Seccion inferior de header -->
+        <div class="head_bot">
+            <a href="index.html" alt="Home">
+                <button>Home</button>
+            </a>
+
+            <a href="#" alt="Shop">
+                <button>Tienda</button>
+            </a>
+
+            <a href="#" alt="Where to buy">
+                <button>Personaliza tu pedido</button>
+            </a>
+
+            <a href="#" alt="Recipes">
+                <button>Recetas</button>
+            </a>
+
+            <a href="#" alt="Contact">
+                <button>Nuestras Redes</button>
+            </a>
+        </div>
+        <!-- Fin seccion inferior de header -->
+    </header>
+    <div class="formulario">
+        <h1>Inicio de sesíon</h1>
+        <form method="post">
+            <div class="username">
+                <input id="input" type="text" required>
+                <label for="">Nombre de Usuario</label>
+            </div>
+            <div class="contraseña">
+                <input id="input2" type="password" required>
+                <label>Contraseña</label>
+            </div>
+            <div id="capa"></div>
+            <center>
+                <input type="button" onclick="addElemento(getElementById('input').value, getElementById('input2').value);" value="Iniciar" class="Submit">
+            </center>
+        </form>
+    </div>
+</body>
+
+</html>
