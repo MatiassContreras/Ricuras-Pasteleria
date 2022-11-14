@@ -13,4 +13,5 @@
 }
 .contact.wpp img{
     height: 100%;
+    width: calc(100% - 75%);
 }
