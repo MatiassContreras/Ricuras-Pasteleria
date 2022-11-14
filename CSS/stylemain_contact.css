@@ -20,4 +20,6 @@
 .content{
     margin: 0 8% 8%;
 }
-.contact button{}
+.contact button{
+    background-color: transparent;
+}
