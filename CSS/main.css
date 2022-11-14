@@ -130,4 +130,14 @@
     background-color: var(--background-top-bot);
 }
 
-.Recetas {}
+.Recetas {
+    display: flex;
+    margin-top: 1010px;
+    margin-left: 53%;
+    border-radius: 4%;
+    height: 23%;
+    position: absolute;
+    border: 2px solid var(--border);
+    width: 32%;
+    background-color: var(--background-top-bot);
+}
