@@ -10,7 +10,7 @@ body {
     background-color: #745d79;
 }
 
-.listas-foter {
+.lista-footer {
     list-style: none;
 }
 
@@ -97,6 +97,6 @@ body {
     place-content: center;
 }
 
-.listas-foter {
+.lista-footer {
     padding: 0;
 }
