@@ -1,4 +1,5 @@
 @import url(stylehead.css);
 .main_container{
     display: grid;
+    position: relative;
 }
