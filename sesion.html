@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/sesion.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="JS/reto.js"></script>
 </head>
 
 <body>
@@ -68,15 +69,16 @@
         <h1>Inicio de sesíon</h1>
         <form method="post">
             <div class="username">
-                <input type="text" required>
+                <input id="input" type="text" required>
                 <label for="">Nombre de Usuario</label>
             </div>
             <div class="contraseña">
-                <input type="password" required>
+                <input class="input" type="password" required>
                 <label>Contraseña</label>
             </div>
+            <div id="capa"></div>
             <center>
-                <input type="button" value="Iniciar" class="Submit">
+                <input type="button" onclick="addElemento(getElementById('input').value);" value="Iniciar" class="Submit">
             </center>
         </form>
     </div>
