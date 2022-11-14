@@ -30,6 +30,4 @@
     border-radius: 30px;
     transition: .7s ease all;
 }
-.contact :hover button{
-    background-color: var(--background-top);
-}
+.contact:hover button{}
